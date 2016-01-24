@@ -1,0 +1,4 @@
+test:
+  build:
+    name: test_container
+    dockerfile_path: Dockerfile.test

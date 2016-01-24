@@ -1,0 +1,6 @@
+- name: Wget standalone
+  service: test
+  command: wget http://google.com
+- name: Wget pip
+  service: test
+  command: wget -O- http://google.com | tee test.html
